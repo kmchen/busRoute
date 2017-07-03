@@ -1,6 +1,6 @@
 # Bus Route Challenge
 
-## Build && Run
+## Build && Run (go version go1.7 darwin/amd64)
 
 ```shell
 $> go build main.go
