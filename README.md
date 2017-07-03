@@ -5,6 +5,8 @@
 ```shell
 $> go build main.go
 $> ./main -busRoutePath={route_file}
+or
+$> ./main -shasumPath={path_to_shasum} -busRoutePath={route_file}
 ```
 
 ## Test
@@ -35,4 +37,8 @@ $> curl -X GET \
 $> curl -v -X GET \
   -H "Cache-Control: no-cache" \
   "http://localhost:8088/update"
+```
+## Generate maximum sample routes
+```shell
+$> go run data.go
 ```
